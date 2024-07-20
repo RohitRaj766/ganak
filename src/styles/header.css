@@ -1,0 +1,70 @@
+* {
+  font-family: 'Lexend', sans-serif;
+}
+
+.header--container {
+  width: 100%; 
+  max-width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.header--container .logo--container {
+  height: 100px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header--container .logo--container .title {
+  margin-left: 12px;
+  letter-spacing: 2px;
+}
+
+.header--container .logo--container img {
+  width: 30px;
+  height: 30px;
+}
+
+.header--container .buttons--container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.header--container .buttons--container .contact--us {
+  margin-left: 24px;
+  width: 130px;
+  height: 44px;
+  border: 1px solid #0000000D;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  color: #20294C;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.header--container .buttons--container .book--demo {
+  margin-left: 24px;
+  width: 130px;
+  height: 44px;
+  border: none;
+  background-color: rgba(5, 169, 135, 1);
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+
