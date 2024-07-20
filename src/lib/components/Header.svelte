@@ -1,5 +1,5 @@
 <script></script>
-<style>@import '../../styles/header.css';</style>
+<style>@import '../../styles/header.scss';</style>
 
 <header>
     <nav class="header--container">
