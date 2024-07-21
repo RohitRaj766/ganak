@@ -1,5 +1,6 @@
 <script lang="ts">
     import Header from '$lib/components/Header.svelte';
+    import Hero from '$lib/components/Hero.svelte'
     import Limitation from '$lib/components/Limitation.svelte';
 </script>
 <style lang="scss">
@@ -8,7 +9,7 @@
 <div class="parent--layout">
   <Header />
   <div class="first--child--layout">
-     
+     <Hero/>
   </div>
   <div class="second--child--layout">
     <Limitation/>
