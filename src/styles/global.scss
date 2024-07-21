@@ -1,0 +1,17 @@
+* {
+    font-family: 'Lexend', sans-serif;
+  }
+  .parent--layout{
+    max-width: 1440px;
+    width: 100%; 
+    margin: 0 auto;
+    .second--child--layout {
+        background-image: url('/second-child-layout.svg'); 
+        background-size: cover;  
+        background-position: center; 
+        background-repeat: no-repeat; 
+        max-width: 1440px;
+        width: 100%;
+        height: 1555px; 
+    }
+  }  

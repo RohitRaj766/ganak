@@ -1,8 +1,18 @@
-<script>
+<script lang="ts">
     import Header from '$lib/components/Header.svelte';
+    import Limitation from '$lib/components/Limitation.svelte';
 </script>
-<div style="Width: 1440px; margin: 0 auto;">
+<style lang="scss">
+  @import'../styles/global.scss';
+</style>
+<div class="parent--layout">
   <Header />
+  <div class="first--child--layout">
+     
+  </div>
+  <div class="second--child--layout">
+    <Limitation/>
+  </div>
 </div>
 
   
