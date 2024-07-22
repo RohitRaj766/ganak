@@ -1,7 +1,7 @@
 <script></script>
 <style>@import '../../styles/header.scss';</style>
 
-<header>
+<header class="main--header--container">
     <nav class="header--container">
       <div class="logo--container">
         <img src="/logo.svg" alt="Logo" />
