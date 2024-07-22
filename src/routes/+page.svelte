@@ -1,8 +1,8 @@
 <script lang="ts">
-    import Header from '$lib/components/Header.svelte';
-    import Hero from '$lib/components/Hero.svelte'
-    import Limitation from '$lib/components/Limitation.svelte';
-    import UniversalBenifits from  '$lib/components/UniversalBenifits.svelte';
+  import Header from '$lib/components/Header.svelte';
+  import Hero from '$lib/components/Hero.svelte'
+	import Innovation from '$lib/components/Innovation.svelte';
+  import Limitation from '$lib/components/Limitation.svelte';
 </script>
 <style lang="scss">
   @import'../styles/global.scss';
@@ -15,6 +15,9 @@
   <div class="second--child--layout">
     <Limitation/>
     <UniversalBenifits/>
+  </div>
+  <div>
+    <Innovation/>
   </div>
 </div>
 
