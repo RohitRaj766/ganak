@@ -14,6 +14,7 @@
   </div>
   <div class="second--child--layout">
     <Limitation/>
+    <UniversalBenifits/>
   </div>
   <div>
     <Innovation/>
