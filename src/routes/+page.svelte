@@ -3,6 +3,7 @@
   import Hero from '$lib/components/Hero.svelte'
 	import Innovation from '$lib/components/Innovation.svelte';
   import Limitation from '$lib/components/Limitation.svelte';
+  import UniversalBenifits from '$lib/components/UniversalBenifits.svelte';
 </script>
 <style lang="scss">
   @import'../styles/global.scss';
