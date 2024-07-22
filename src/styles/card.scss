@@ -1,7 +1,5 @@
 
-.card {
-    width: 300px;
-    height: 270px;
+.card--base {
     border: 1px solid #e0e0e0;
     overflow: hidden;
     display: flex;
@@ -10,8 +8,6 @@
     background-color: #fff;
     border-radius: 8px;
     .card--image {
-        width: 300px;
-        height: 144px;
         object-fit: cover;
     }
     .card--content {
@@ -29,6 +25,43 @@
             font-weight: 300;
             text-align: center;
             letter-spacing: 1px;
+        }
+    }
+}
+.benifit--card {
+    @extend .card--base;
+    width: 358px;
+    height: 336px;
+    .card--image {
+        width: 358px;
+        height: 144px;
+    }
+}
+.card {
+    @extend .card--base;
+    width: 300px;
+    height: 270px;
+    .card--image {
+        width: 300px;
+        height: 144px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card, .benifit--card {
+        width: 358px !important;
+        height: 345px !important;
+        .card--image {
+            width: 358px !important;
+            height: 160px !important;
+        }
+        .benifits--discription{
+            font-size: 14px;
+            color:#707070;
+            text-align: center;
+        }
+        .card--text {
+            line-height: 23px;
         }
     }
 }

@@ -19,7 +19,7 @@
     .limitation--card--container {
         display: flex;
         flex-flow: row wrap;
-        gap: 15px;
+        gap: 12px;
         justify-content: center;
         max-width: 1260px;
         width: 100%;
@@ -44,10 +44,10 @@
 
 @media screen and (max-width: 480px) {
     .current--limitation {
-        margin-top: 60px;
+        margin-top: 60px !important;
         .limitation--card--container {
-            margin-top: 20px;
-            gap: 10px;
+            margin-top: 20px !important;
+            gap: 20px !important;
         }
     }
 }
