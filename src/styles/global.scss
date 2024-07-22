@@ -13,6 +13,9 @@
       max-width: 1440px;
       width: 100%;
       height: auto; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .second--child--layout {
         background-image: url('/second-child-layout.svg'); 
@@ -22,5 +25,8 @@
         max-width: 1440px;
         width: 100%;
         height: auto; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
   }  
