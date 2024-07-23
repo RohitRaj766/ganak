@@ -4,6 +4,7 @@
 	import Innovation from '$lib/components/Innovation.svelte';
   import Limitation from '$lib/components/Limitation.svelte';
   import UniversalBenifits from '$lib/components/UniversalBenifits.svelte';
+  import Architechture from '$lib/components/Architechture.svelte';
 </script>
 <style lang="scss">
   @import'../styles/global.scss';
@@ -16,6 +17,9 @@
   <div class="second--child--layout">
     <Limitation/>
     <UniversalBenifits/>
+  </div>
+  <div>
+    <Architechture/>
   </div>
   <div>
     <Innovation/>

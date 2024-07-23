@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@joint/core": "^4.0.4",
 		"animate.css": "^4.1.1"
 	}
 }
