@@ -18,6 +18,7 @@
             color: #292929;
             text-align: center;
             letter-spacing: 1px;
+            margin-top: 0px;
         }
         .card--text {
             font-size: 14px;
@@ -25,6 +26,11 @@
             font-weight: 300;
             text-align: center;
             letter-spacing: 1px;
+        }
+        .benifits--discription{
+            font-size: 14px;
+            color:#292929;
+            text-align: center;
         }
     }
 }
@@ -41,23 +47,34 @@
     @extend .card--base;
     width: 300px;
     height: 270px;
+    transition: transform 1s ease;
+    &:hover {
+        transform: scale(1.05);
+    }
     .card--image {
         width: 300px;
         height: 144px;
+    }
+    .card--text{
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 480px) {
     .card, .benifit--card {
         width: 358px !important;
-        height: 345px !important;
+        height: 300px !important;
+        transition: transform 1s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
         .card--image {
             width: 358px !important;
             height: 160px !important;
         }
         .benifits--discription{
             font-size: 14px;
-            color:#707070;
+            color:#707070 !important;
             text-align: center;
         }
         .card--text {

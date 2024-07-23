@@ -15,11 +15,10 @@
     let shouldAnimate = false;
     
     function trasitionElment() {
-    shouldAnimate = true; 
+    shouldAnimate === false ? shouldAnimate = true : shouldAnimate = false; 
     }
 
     function selectBenefit(benefit) {
-    shouldAnimate = false;
     selectedBenefit = benefit;
     }
 </script>
@@ -46,7 +45,7 @@
       </div>
       {#if selectedBenefit}
       <div class="right">
-        <div class="img-wrapper {shouldAnimate ? 'animate__animated animate__fadeIn' : ''}">
+        <div class="img-wrapper {shouldAnimate ? 'animate__animated animate__zoomIn' : 'animate__animated animate__fadeIn'}">
           <img src={selectedBenefit.imgSrc} alt={selectedBenefit.title} />
         </div>
       </div>
