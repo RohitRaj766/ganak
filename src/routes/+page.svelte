@@ -6,6 +6,7 @@
   import Limitation from '$lib/components/Limitation.svelte';
   import UniversalBenifits from '$lib/components/UniversalBenifits.svelte';
   import Architecture from '$lib/components/Architecture.svelte';
+  import ModularDesign from '$lib/components/ModularDesign.svelte';
 </script>
 <style lang="scss">
   @import'../styles/global.scss';
@@ -21,6 +22,9 @@
   </div>
   <div>
     <Architecture/>
+  </div>
+  <div>
+    <ModularDesign/>
   </div>
 </div>
 <div>

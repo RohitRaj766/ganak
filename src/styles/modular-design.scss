@@ -1,0 +1,133 @@
+.moduler--design {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  
+    .heading {
+      margin-bottom: 50px;
+  
+      p {
+        font-size: 42px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 24px;
+      }
+    }
+  
+    .content--box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 80%;
+  
+      .left,
+      .right {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 49%;
+        align-items: center;
+  
+        .foundation,
+        .stream,
+        .adaptability,
+        .customize,
+        .scalable,
+        .accessible {
+          display: flex;
+          align-items: center;
+          background-color: #ffffff;
+          padding: 2px;
+          border-radius: 8px;
+          width: 100%;
+          max-width: 541px;
+          height: 86px;
+          border: 1.2px solid #eaeaea;
+          transition: transform 1s ease;
+  
+          &:hover {
+            transform: scale(1.05);
+          }
+  
+          .img--container {
+            margin-right: 16px;
+            width: 66px;
+            height: 66px;
+            margin-left: 8px;
+            border-radius: 8px;
+  
+            img {
+              width: 66px;
+              height: 66px;
+              border-radius: 8px;
+              object-fit: cover;
+            }
+          }
+  
+          span {
+            font-size: 16px;
+            font-weight: 500;
+          }
+  
+          &.foundation .img--container {
+            background-color: #ffe5b4;
+          }
+  
+          &.stream .img--container {
+            background-color: #e6e6fa;
+          }
+  
+          &.adaptability .img--container {
+            background-color: #d5f3e5;
+          }
+  
+          &.customize .img--container {
+            background-color: #d1e7ff;
+          }
+  
+          &.scalable .img--container {
+            background-color: #ffd1d1;
+          }
+  
+          &.accessible .img--container {
+            background-color: #e7ffd1;
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .heading {
+        p {
+          font-size: 30px;
+        }
+      }
+  
+      .content--box {
+        flex-direction: column !important;
+        gap: 30px;
+  
+        .left,
+        .right {
+          width: 100% !important;
+  
+          .foundation,
+          .stream,
+          .adaptability,
+          .customize,
+          .scalable,
+          .accessible {
+            width: 100% !important;
+            img {
+              margin-right: 0;
+              margin-bottom: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
