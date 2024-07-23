@@ -1,6 +1,7 @@
+<script>import 'animate.css';</script>
 <style>@import'../../styles/hero.scss';</style>
 
-<div class="hero--container">
+<div class="hero--container animate__animated animate__fadeIn">
     <div class="hero--container--left">
         <div class="content--box">
             <div class="heading">

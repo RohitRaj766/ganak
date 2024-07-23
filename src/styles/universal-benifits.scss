@@ -58,9 +58,9 @@
           }
           &.selected {
             max-height: 90px !important;
-            cursor: default !important;
             .benefit--title{
-                color: #292929 !important;
+              color: #292929 !important;
+              cursor: default !important;
             }
           }
         }
@@ -73,6 +73,10 @@
         align-items: center;
         flex-shrink: 1;
         transition: all 0.6s ease-in-out;
+        transition: transform 1s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
         img {
           max-width: 100%;
           height: auto;

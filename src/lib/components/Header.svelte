@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-
+  import 'animate.css';
   let time = '';
   let networkStatus = false;
   let batteryLevel = 100;
@@ -54,7 +54,7 @@
   @import '../../styles/header.scss';
 </style>
 
-<header class="main--header--container">
+<header class="main--header--container animate__animated animate__fadeIn">
   <div class="status--bar">
     <div class="left">
       <div>{time}</div>
@@ -91,7 +91,7 @@
     </div>
   </div>
 </div>
-  <nav class="header--container">
+  <nav class="header--container animate__animated animate__fadeIn">
     <div class="logo--container">
       <img src="/logo.svg" alt="Logo" />
       <p class="title"> GANAK</p>
