@@ -1,0 +1,27 @@
+h2{
+    width: 99%;;
+    margin: 0%;
+    padding-bottom: 0.7%;
+}
+.blanket{
+    width: 80%;
+    margin: 1% auto;
+    padding: 2%;
+    border: 1px solid rgb(41, 41, 41,0.2);
+    border-radius: 5px;
+}
+.blanket-container{
+    display: flex;
+}
+.faq-question{
+    color: #292929;
+    font-size: 1.2em;
+}
+.faq-answer{
+    color: rgb(41, 41, 41,0.7);
+    display: none;
+}
+.arrow{
+    padding-top: 0.4%;
+    cursor: pointer;
+}

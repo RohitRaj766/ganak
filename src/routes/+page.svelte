@@ -7,6 +7,8 @@
   import UniversalBenifits from '$lib/components/UniversalBenifits.svelte';
   import Architecture from '$lib/components/Architecture.svelte';
   import ModularDesign from '$lib/components/ModularDesign.svelte';
+	import FaqComponent from '$lib/components/FaqComponent.svelte';
+	import FaqSection from '$lib/components/FaqSection.svelte';
 </script>
 <style lang="scss">
   @import'../styles/global.scss';
@@ -29,6 +31,9 @@
 </div>
 <div>
   <Innovation/>
+</div>
+<div>
+  <FaqSection />
 </div>
 <div>
   <Footer />
