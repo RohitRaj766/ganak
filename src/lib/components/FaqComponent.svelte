@@ -19,18 +19,23 @@
 //     });
 // });
 
-function arrClick(){
-    document.getElementsByClassName("faq-answer").
+let showAnswer = false;
+
+
+function toggleAnswer(){
+    showAnswer = !showAnswer;
 }
 
-    
+
+
 </script>
 
 
 <div class="blanket">
     <div class="blanket-container">
     <h2 class="faq-question">{question}</h2>
-    <span class="arrow" on:click={arrClick()}><img src="/arrow-icon.svg" alt="arrow-icon"></span>
+    <span class="arrow" on:click={toggleAnswer}><img src="/arrow-icon-down.svg" alt="arrow-icon"></span>
+    <!-- <span class="arrow" on:click={toggleAnswer}><img src="/arrow-icon-up.svg" alt="arrow-icon"></span> -->
     </div>
-    <p class="faq-answer">{answer}</p>
+    <p class:show={showAnswer} class="faq-answer">{answer}</p>
 </div>

@@ -21,7 +21,17 @@ h2{
     color: rgb(41, 41, 41,0.7);
     display: none;
 }
+.faq-answer.show {
+    display: block;
+}
 .arrow{
     padding-top: 0.4%;
     cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .faq-question{
+        font-size: 1rem;
+        color: rgb(41, 41, 41,0.9);
+    }
 }
