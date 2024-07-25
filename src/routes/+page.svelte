@@ -9,6 +9,7 @@
   import ModularDesign from '$lib/components/ModularDesign.svelte';
 	import FaqComponent from '$lib/components/FaqComponent.svelte';
 	import FaqSection from '$lib/components/FaqSection.svelte';
+	import Compliance from '$lib/components/Compliance.svelte';
 </script>
 <style lang="scss">
   @import'../styles/global.scss';
@@ -28,6 +29,9 @@
   <div>
     <ModularDesign/>
   </div>
+</div>
+<div>
+  <Compliance />
 </div>
 <div>
   <Innovation/>
