@@ -3,7 +3,7 @@
 }
 .compliance-section{
     color: white;
-    background-image: url('/static/compliance-bg.svg');
+    background-image: url('/compliance-bg.svg');
     background-repeat: no-repeat;
     margin: 0% 2%;
     text-align: center;
@@ -36,4 +36,42 @@
 }
 .second-module.show{
     display: block;
+}
+.button-container{
+    border: 1px solid rgba(231, 234, 236, 0.3);
+    border-radius: 5px;
+    // padding: 0.5%;
+    margin: 0 41%;
+    width: 17%;
+    background-color: rgba(231, 234, 236, 0.3); 
+    color: white;
+}
+.button-1{
+    color: white;
+    border: none;
+    width: 40%;
+    display: inline-block;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.button-1.show{
+    background-color: #f33;
+    padding: 3.5% 2%;
+    margin: 1.5% 0%;
+    border: 1px solid #f33 ;
+    border-radius: 5px;
+}
+.button-2{
+    color: white;
+    width: 40%;
+    display: inline-block;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.button-2.show{
+    background-color: rgba(5, 169, 135, 1);
+    padding: 3.5% 2%;
+    margin: 1.5% 0%;
+    border: 1px solid rgba(5, 169, 135, 1) ;
+    border-radius: 5px;
 }

@@ -30,9 +30,11 @@
 
 <div class="compliance-section">
     <h2 id="comp">Compliance Transformation: A Dual Perspective</h2>
-    <div>
-        <button on:click={toggleAnswer2}>Without Ganak</button>
-        <button on:click={toggleAnswer}>With Ganak</button>
+    <div class="button-container">
+        <!-- <button class="button-1" on:click={toggleAnswer2}>Without Ganak</button>
+        <button class="button-2" on:click={toggleAnswer}>With Ganak</button> -->
+        <p class="button-1" class:show={but1} on:click={toggleAnswer2}>Without Ganak</p>
+        <p class="button-2" class:show={but2} on:click={toggleAnswer}>With Ganak</p>
     </div>
     <div class="compliance-image">
         <img src="compliance.svg" alt="compliance-pic">
