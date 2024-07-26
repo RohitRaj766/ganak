@@ -11,6 +11,7 @@
 	import FaqSection from '$lib/components/FaqSection.svelte';
 	import Compliance from '$lib/components/Compliance.svelte';
   import GotoTopbutton from '$lib/components/GotoTopbutton.svelte';
+	import Utilise from '$lib/components/Utilise.svelte';
 </script>
 <style lang="scss">
   @import'../styles/global.scss';
@@ -34,6 +35,9 @@
 </div>
 <div>
   <Compliance />
+</div>
+<div>
+  <Utilise />
 </div>
 <div>
   <Innovation/>

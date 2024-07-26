@@ -1,0 +1,68 @@
+*{
+    font-family: 'Lexend', sans-serif;
+}
+.utilise-section{
+    background-image: url('/utilise-section-bg.svg');
+    background-repeat: no-repeat;
+    width: 86%;
+    margin: 5% 7%;
+    text-align: center;
+}
+.butt1{
+    background-color: rgba(5, 169, 135, 1);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 1% 2%;
+    margin-right: 1%;
+}
+.butt1:hover{
+    background-color: rgba(4, 120, 96, 1);
+}
+.butt2{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    color: #05A987;
+    padding: 1% 2%;
+}
+.butt2:hover{
+    border: 2px solid rgba(217, 217, 217, 1);
+}
+.uti-head{
+    color: #292929;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.uti-para{
+    color: #292929;
+    font-weight: 100;
+    padding-top: 1%;
+    font-size: 1.2rem;
+}
+.uti-position{
+    width: 60%;
+    margin: 0% 20%;
+    padding-top: 7%;
+}
+.butt-container{
+    padding: 2% 0 6.1% 0;
+}
+
+@media (min-width:401px) and (max-width:767px) {
+  .uti-head{
+    font-size: 2rem;
+  }  
+  .uti-para{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:400px) {
+    .uti-head{
+        font-size: 1.5rem;
+      }  
+      .uti-para{
+        font-size: 0.8rem;
+      }
+}
