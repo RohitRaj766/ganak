@@ -15,7 +15,7 @@
         showAnswer = !showAnswer;
         showAnswer2 = !showAnswer2;
         but2 = false;
-        but1 = true;
+        but1 = true;  
         }
     }
     function toggleAnswer(){
@@ -30,17 +30,19 @@
 
 <div class="compliance-section">
     <h2 id="comp">Compliance Transformation: A Dual Perspective</h2>
-    <div class="button-container">
-        <!-- <button class="button-1" on:click={toggleAnswer2}>Without Ganak</button>
-        <button class="button-2" on:click={toggleAnswer}>With Ganak</button> -->
+    <div class="button-container desktop">
         <p class="button-1" class:show={but1} on:click={toggleAnswer2}>Without Ganak</p>
         <p class="button-2" class:show={but2} on:click={toggleAnswer}>With Ganak</p>
     </div>
     <div class="compliance-image">
         <img src="compliance.svg" alt="compliance-pic">
     </div>
+    <div class="button-container mobile">
+        <p class="button-1" class:show={but1} on:click={toggleAnswer2}>Without Ganak</p>
+        <p class="button-2" class:show={but2} on:click={toggleAnswer}>With Ganak</p>
+    </div>
     <div class="features-container">
-        <div class="first-module" class:show={showAnswer}>
+        <div class="first-module" class:show={showAnswer2}>
         <Features pic="/verification-delays.svg" title="Verification Delays" />
         <Features pic="/complex-reporting.svg" title="Complex Reporting" />
         <Features pic="/data-overload.svg" title="Data Overload" />
@@ -50,7 +52,7 @@
         <Features pic="/enforcement-challenges.svg" title="Enforcement Challenges" />
         <Features pic="/risk-exposure.svg" title="Risk Exposure" />
         </div>
-        <div class="second-module" class:show={showAnswer2}>
+        <div class="second-module" class:show={showAnswer}>
         <Features pic="/instant-verification.svg" title="Instant Verification" /> 
         <Features pic="/streamlined-reporting.svg" title="Streamlined Reporting" /> 
         <Features pic="/structured-data-flow.svg" title="Structured Data Flow" /> 

@@ -3,7 +3,6 @@
 }
 .compliance-section{
     color: white;
-    // background-image: linear-gradient(rgba(17, 45, 68, 1),rgba(37, 71, 99, 1)); //in the case you dont want texture on image uncomment it and comment next line
     background-image: url('/compliance-bg.svg');
     background-repeat: no-repeat;
     margin: 0% 2%;
@@ -43,7 +42,6 @@
 .button-container{
     border: 1px solid rgba(231, 234, 236, 0.3);
     border-radius: 5px;
-    // padding: 0.5%;
     margin: 0 41%;
     width: 17%;
     background-color: rgba(231, 234, 236, 0.3); 
@@ -77,4 +75,61 @@
     margin: 1.5% 0%;
     border: 1px solid rgba(5, 169, 135, 1) ;
     border-radius: 5px;
+}
+.mobile{
+    display: none;
+}
+
+@media (min-width:726px) and (max-width:1050px) {
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .compliance-section{
+        background-image: linear-gradient(rgba(17, 45, 68, 1),rgba(37, 71, 99, 1)); 
+        margin: 0%;
+    }
+    .compliance-image{
+        width: 100%;
+        display: block;
+    }
+    .features-container{
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width:725px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .compliance-section{
+        background-image: linear-gradient(rgba(17, 45, 68, 1),rgba(37, 71, 99, 1)); 
+        margin: 10% 0 0 0;
+    }
+    .compliance-image{
+        width: 100%;
+        display: block;
+    }
+    .features-container{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+    }
+    .button-1{
+        width: 90%;
+    }
+    .button-2{
+        width: 90%;
+    }
+    #comp{
+        margin-bottom: 8%;
+    }
 }
