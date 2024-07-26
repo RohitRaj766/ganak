@@ -1,11 +1,10 @@
 <script context="module"></script>
-  
+
   <script>
     import { onMount, onDestroy } from 'svelte';
     let isAnimating = false;
   
     const startAnimation = () => {
-        console.log(window.scrollY)
         if (typeof window !== 'undefined') {
         const flowchartItems = document.querySelectorAll('.flowchart-item');
         let delay = 0;
@@ -13,9 +12,8 @@
           if (index !== 1) {
             setTimeout(() => {
               item.classList.add('animate');
-              console.log("Item got class added: ", item);
             }, delay);
-            delay += 2000;
+            delay += 1000;
           }
         });
       }
