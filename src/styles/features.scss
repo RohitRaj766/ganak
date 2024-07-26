@@ -19,3 +19,14 @@
     margin-right: 3%;
     display:inline-block;
 }
+
+@media screen and (max-width:725px){
+    // .comp-line-img{
+    //     display: none;
+    // }
+    .small-f-container{
+        display: block;
+        margin: 0 30%;
+    }
+
+}

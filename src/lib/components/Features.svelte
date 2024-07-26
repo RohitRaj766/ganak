@@ -12,5 +12,5 @@
     <img class="container-pic" src="{pic}" alt="little-pic">
     <p>{title}</p>
     </div>
-    <img src="/line-features.svg" alt="">
+    <img class="comp-line-img" src="/line-features.svg" alt="">
 </div>
