@@ -10,7 +10,7 @@
 }
 #comp{
     font-size: 2.2rem;
-    width: 60%;
+    width: 50%;
     margin-left: 20%;
     padding: 4%;
 }
@@ -24,4 +24,16 @@
     display: inline-block;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+.first-module{
+    display: block;
+}
+.first-module.show{
+    display: none;
+}
+.second-module{
+    display: none;
+}
+.second-module.show{
+    display: block;
 }
