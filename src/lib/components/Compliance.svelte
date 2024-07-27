@@ -31,15 +31,15 @@
 <div class="compliance-section">
     <h2 id="comp">Compliance Transformation: A Dual Perspective</h2>
     <div class="button-container desktop">
-        <p class="button-1" class:show={but1} on:click={toggleAnswer2}>Without Ganak</p>
-        <p class="button-2" class:show={but2} on:click={toggleAnswer}>With Ganak</p>
+        <p class="button-1-comp" class:show={but1} on:click={toggleAnswer2}>Without Ganak</p>
+        <p class="button-2-comp" class:show={but2} on:click={toggleAnswer}>With Ganak</p>
     </div>
     <div class="compliance-image">
         <img src="compliance.svg" alt="compliance-pic">
     </div>
     <div class="button-container mobile">
-        <p class="button-1" class:show={but1} on:click={toggleAnswer2}>Without Ganak</p>
-        <p class="button-2" class:show={but2} on:click={toggleAnswer}>With Ganak</p>
+        <p class="button-1-comp" class:show={but1} on:click={toggleAnswer2}>Without Ganak</p>
+        <p class="button-2-comp" class:show={but2} on:click={toggleAnswer}>With Ganak</p>
     </div>
     <div class="features-container">
         <div class="first-module" class:show={showAnswer2}>
