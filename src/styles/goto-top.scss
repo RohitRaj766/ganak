@@ -37,3 +37,11 @@
         -webkit-transform: rotate(-135deg);
     }
 }
+
+
+@media screen and (max-width:650px) {
+    .goto--top--button {
+        bottom: 30px !important;
+        right: 30px !important;
+    }
+}

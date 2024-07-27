@@ -1,5 +1,6 @@
 
 <script>
+    import 'animate.css'
     if (typeof window !== 'undefined') {
         const handleScroll = () => {
             const button = document.querySelector('.goto--top--button');
@@ -25,6 +26,6 @@
 <style>
     @import'../../styles/goto-top.scss';
 </style>
-<div class="goto--top--button">
+<div class="goto--top--button animate__animated animate__fadeIn">
     <i class="arrow-up"></i>
 </div>
