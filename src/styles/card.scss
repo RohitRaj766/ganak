@@ -60,16 +60,16 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .card, .benifit--card {
-        width: 358px !important;
-        height: 300px !important;
+        width: 340px !important;
+        height: 310px !important;
         transition: transform 1s ease;
         &:hover {
             transform: scale(1.05);
         }
         .card--image {
-            width: 358px !important;
+            width: 350px !important;
             height: 160px !important;
         }
         .benifits--discription{
