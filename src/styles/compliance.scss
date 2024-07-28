@@ -5,6 +5,7 @@
     color: white;
     background-image: url('/compliance-bg.svg');
     background-repeat: no-repeat;
+    background-position: center center;
     margin: 0% 2%;
     text-align: center;
     padding-top: 4%;
@@ -144,5 +145,18 @@
         margin-bottom: 8%;
         width: 90%;
         margin-left: 2.5%;
+    }
+}
+
+
+@media (min-width:1500px) and (max-width:1899px) {
+    .compliance-image img{
+        width: 60%;
+    }
+}
+
+@media (min-width:1900px) {
+    .compliance-image img{
+        width: 50%;
     }
 }
