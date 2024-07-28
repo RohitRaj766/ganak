@@ -283,9 +283,10 @@
     margin-top: 90px;
     .heading {
       text-align: center;
-      font-size: 42px;
       margin-bottom: 2rem;
       p {
+        font-size: 30px !important;
+        letter-spacing: 1px;
         margin: 0;
       }
     }
