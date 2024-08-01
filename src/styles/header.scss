@@ -1,6 +1,7 @@
 * {
   font-family: 'Lexend', sans-serif;
 }
+
 .main--header--container{
   display: flex;
   justify-content: center;
@@ -122,24 +123,38 @@
 }
 
 @media screen and (max-width: 450px) {
- .main--header--container{
-   flex-direction: column !important;
-   .status--bar{
-     display: flex !important;
-     justify-content: space-between !important;
-     padding-left: 10px !important;
-     padding-right: 10px !important;
-     padding-top: 10px !important;
-     font-size: 12px !important;
-     .right{
+ 
+  .wrapper{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px -6px 10px 1px rgb(187, 187, 187);
+    .main--header--container{
+     flex-direction: column !important;
+     width: 100%;
+     .status--bar{
        display: flex !important;
        justify-content: space-between !important;
-       align-items: center !important;
-       gap: 15px !important;
+       padding-left: 10px !important;
+       padding-right: 10px !important;
+       padding-top: 10px !important;
+       font-size: 12px !important;
+       .right{
+         display: flex !important;
+         justify-content: space-between !important;
+         align-items: center !important;
+         gap: 15px !important;
+        }
       }
-    }
-    .header--container{
-      height: 55px !important;
+      .header--container{
+        height: 55px !important;
+      }
     }
   }
 
