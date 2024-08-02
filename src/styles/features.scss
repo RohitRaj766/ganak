@@ -33,7 +33,7 @@
     }
 }
 
-@media (min-width:571px) and (max-width:725px){
+@media (min-width:571px) and (max-width:724px){
     .comp-line-img{
         display: none;
     }
@@ -52,5 +52,14 @@
         width: 90%;
         margin: 0 auto;
         font-size: 1.2rem;
+    }
+}
+
+@media (min-width:725px) and (max-width:726px){
+    .comp-line-img{
+        display: none !important;
+    }
+    .small-f-container-2 p{
+        font-size: 0.67rem;
     }
 }
